@@ -1,0 +1,172 @@
+@font-face {
+    font-family: Brother1816;
+    src: url(../fonts/Brother1816-ExtraBold.woff2);
+}
+@font-face {
+    font-family: Brother1816R;
+    src: url(../fonts/Brother1816Printed-Regular.woff2);
+}
+
+body{
+    box-sizing: border-box;
+    background-color: #526667;
+    padding: 80px;
+    max-width: 1440px;
+    align-items: center;
+}
+
+.container{
+    max-width: 1266px;
+    background-color: #F1F1F1;
+    
+}
+
+nav{
+    background-position: center;
+    background-image: url(../img/banner.webp);
+    background-repeat: no-repeat;
+    height: 857px;
+    padding: 33px;
+}
+
+
+
+ul{
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.LO{
+    width: 65%;
+    font-family: Brother1816;
+}
+
+.about, .articles, .LO{
+    padding-top: 20px;
+}
+
+.about, .articles, .subscribe{
+    font-family: Brother1816R;
+}
+.subscribe{
+    border-style: solid;
+    border-width: 2px;
+    padding: 5px 20px 5px 20px;
+    margin-top: 13px;
+}
+
+.titulos{
+    display: flex;
+    margin-top: 10%;
+    flex-direction: column;
+}
+
+h1, h2, h3{
+    display: flex;
+}
+.titulo{
+    justify-content: center;
+    align-content: center;
+    font-family: Brother1816;
+    font-size: 100px;
+    margin-bottom: 0;
+}
+
+.subtitulo{
+    font-family: Brother1816R; 
+    justify-content: center;
+    align-content: center;
+}
+
+.separacionHR{
+    width: 71px;
+    height: 2px;
+    background-color: black;
+}
+
+.ultimosArticulos{
+    background-color: #E9EAE8;
+    padding: 120px 33px 0 33px;
+}
+
+figure{
+    
+    margin: 0 0 180px 0;
+}
+
+.fotosSEO{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+figcaption{
+    text-align: center;
+    padding: 0px 50px 100px 50px;
+}
+
+figure>hr{
+    margin-top: 100px;
+    width: 40px !important;
+    height: 1px !important;
+}
+
+.fotoeditar{
+    width: 100%;
+}
+
+.sombras{
+    box-shadow: 4px 5px 8px 5px #C4C4C4;
+}
+
+.about2{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.contenidoAbout{
+    padding: 140px 123px 140px 123px;
+}
+
+p{
+    padding-top: 20px;
+    text-align: justify;
+}
+
+figcaption>hr{
+    width: 40px !important;
+    height: 1px !important;
+}
+
+form{
+    background-color: #E9EAE8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 80px 370px 80px 370px;
+}
+
+h3{
+    justify-content: center;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+input{
+    padding: 15px;
+}
+
+form>button{
+   width: 157px;
+   margin-left: 180px;
+}
+
+footer>ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 85px 70px 85px 70px;
+}
