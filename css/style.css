@@ -171,3 +171,11 @@ footer>ul{
     justify-content: space-between;
     padding: 85px 70px 85px 70px;
 }
+
+.iconos{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    padding: 0;
+    margin: 0;
+}
